@@ -8,8 +8,11 @@
         api_version: v1
         kind: Namespace
         state: present
+        kubeconfig: ~/terraform/kubeconfig_myapp-eks-cluster
     - name: Deploy nginx app
       kubernetes.core.k8s:
-        src: ~/ansible/nginx.yaml
+        src: https://raw.githubusercontent.com/ujwalshende/deploy-to-k8s-using-ansible/master/nginx.yaml
         state: present
+        kubeconfig: ~/terraform/kubeconfig_myapp-eks-cluster
         namespace: my-app
+        
