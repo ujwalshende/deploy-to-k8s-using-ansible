@@ -237,3 +237,6 @@ module.eks.aws_eks_addon.this["coredns"]: Creation complete after 44s [id=myapp-
 
 Apply complete! Resources: 62 added, 0 changed, 0 destroyed
 ```
+After executing `ansible-playbook deploy-to-k8s.yaml`, the output should look like the following
+<img width="942" height="267" alt="image" src="https://github.com/user-attachments/assets/d8d8038c-b5f5-4493-86e5-b4049ca17a93" />
+
