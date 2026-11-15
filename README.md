@@ -234,4 +234,6 @@ module.eks.aws_eks_addon.this["kube-proxy"]: Creation complete after 24s [id=mya
 module.eks.aws_eks_addon.this["coredns"]: Still creating... [00m30s elapsed]
 module.eks.aws_eks_addon.this["coredns"]: Still creating... [00m40s elapsed]
 module.eks.aws_eks_addon.this["coredns"]: Creation complete after 44s [id=myapp-eks-cluster:coredns]
+
+Apply complete! Resources: 62 added, 0 changed, 0 destroyed
 ```
